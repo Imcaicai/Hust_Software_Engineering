@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:background="@drawable/background_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/achievement_btn"
+            android:layout_width="22dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/btn_achievement" />
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@+id/achievement_btn"
+            android:background="@drawable/btn_gold">
+
+            <TextView
+                android:id="@+id/gold_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:clickable="true"
+                android:text="0"
+                android:textColor="@color/blue_dark"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/city_name"
+            android:layout_width="82dp"
+            android:layout_height="46dp"
+            android:layout_below="@+id/achievement_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/city_name" />
+
+        <TextView
+            android:layout_marginLeft="81dp"
+            android:id="@+id/time_text_0"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/city_name"
+            android:text="您总共专注了"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/sum_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/city_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/time_text_0"
+            android:text="00时 00分 00秒"
+            android:textColor="@color/blue_dark"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/city_img"
+        android:layout_width="324dp"
+        android:layout_height="237dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/city_img"/>
+
+    <TextView
+        android:id="@+id/this_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="00:00"
+        android:textColor="@color/black"
+        android:textSize="54dp" />
+
+    <ImageView
+        android:id="@+id/time_btn"
+        android:layout_width="116dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/btn_start" />
+
+
+
+
+</LinearLayout>

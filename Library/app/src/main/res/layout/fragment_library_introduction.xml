@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.LibraryIntroductionFragment">
+
+    <ScrollView
+
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="333dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="      华中科技大学图书馆现设主馆、医学分馆、东区分馆三个馆区，馆舍总面积64581平方米，各类阅览室32个，可用座位6千多个，其中电子阅览室3个，计算机150余台。"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="@color/blue_4"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="文献信息资源体系建设"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="       图书馆积极服务华中科技大学的建设和发展，大力加强文献信息资源体系建设，优先发展电子资源，适度发展印刷资源。馆藏文献涵盖理、工、医、文、管等十三大学科门类。
+
+     截至2021年12月31日，馆藏文献总量累积1196.7万册（件）。医学古籍特藏是馆藏特色之一，三种古籍入选《国家珍贵古籍名录》。
+
+      现有中、外文数据库580个，数据库总量在全国高校名列前茅。一批高水平数据库为学校教学、科研和学科建设提供了强大的文献保障。"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="@color/blue_4"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="文献信息服务体系建设"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="      为服务好学校改革发展和学科需要，近年来，图书馆着力建设文献信息服务体系，拓宽知识服务边界，取得了良好效果。
+
+      依托丰富的馆藏资源和专业人才优势，图书馆开展了以职能部门和院系需求为目标，以决策支持服务和特色学科服务为中心的学科情报分析、定题及专利服务，为学校“双一流”建设当好科技情报的“千里眼”“顺风耳”。
+
+图书馆还为全校师生提供信息检索教学、科技查新、馆际互借与文献传递等多种形式的专题服务，面向全校各院系、各学科、各大科学平台开展了有针对性的学科服务，服务对象已延伸到校外。"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

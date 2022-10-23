@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_by">
+        <item>关键词</item>
+        <item>作者</item>
+        <item>主题</item>
+        <item>ISBN</item>
+    </string-array>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10sp"
+        android:animateLayoutChanges="true">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:visibility="invisible"
+            android:text="登录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/sample_avatar_image"
+            android:layout_width="229dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/sample_user_avatar"
+
+            />
+
+        <com.example.library.view.customView.Editor
+            android:id="@+id/name_editor"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:drawableLeft="@drawable/icon_user_name"
+            app:hint="昵称"
+            app:singleLine="true"
+            app:textSize="14sp"/>
+
+        <com.example.library.view.customView.Editor
+            android:id="@+id/major_editor"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:drawableLeft="@drawable/icon_user_major"
+            app:hint="学院"
+            app:singleLine="true"
+            app:textSize="14sp"/>
+
+        <com.example.library.view.customView.Editor
+            android:id="@+id/id_editor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="visible"
+            app:drawableLeft="@drawable/icon_user_id"
+            app:hint="学号"
+            app:singleLine="true"
+            app:textSize="14sp"/>
+
+        <com.example.library.view.customView.Editor
+            android:id="@+id/captcha_editor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            app:button_text="获取验证码"
+            app:drawableLeft="@drawable/icon_user_captcha"
+            app:inputType="number"
+            app:hint="验证码"
+            app:singleLine="true"
+            app:textSize="14sp"/>
+
+        <com.example.library.view.customView.Editor
+            android:id="@+id/password_editor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="visible"
+            app:drawableLeft="@drawable/icon_user_password"
+            app:inputType="password"
+            app:hint="密码"
+            app:singleLine="true"
+            app:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/forget_password_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:text="忘记密码？"
+            android:textColor="@color/blue_dark"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/ok_btn"
+            android:layout_width="279dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:text="完成" />
+
+        <TextView
+            android:id="@+id/register_btn"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:clickable="true"
+            android:text="还没有账号？注册一个"
+            android:textColor="@color/blue_dark"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+
+
+</layout>

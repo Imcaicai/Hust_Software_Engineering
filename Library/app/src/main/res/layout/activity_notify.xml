@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:id="@+id/icon_back"
+            android:layout_width="6dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="22dp"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="134dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="活动详情" />
+
+    </LinearLayout>
+
+    <View
+        android:background="@color/gray_3"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <ImageView
+        android:src="@drawable/notify_1"
+        android:id="@+id/notify_cover_info"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="343dp"
+        android:layout_height="205dp"/>
+
+    <TextView
+        android:id="@+id/notify_name_info"
+        android:textSize="16dp"
+        android:text="您的新学期图书馆讲座与培训套餐请查收！"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:text="标签"
+            android:textColor="@color/gray_2"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/notify_label_info"
+            android:layout_toRightOf="@+id/label"
+            android:src="@drawable/label_1" />
+
+        <TextView
+            android:text="开始时间"
+            android:layout_marginTop="15dp"
+            android:id="@+id/start"
+            android:layout_below="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/gray_2"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/start_time_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="14dp"
+            android:layout_toRightOf="@+id/start"
+            android:text="2021-09-01 00:00" />
+
+        <TextView
+            android:text="结束时间"
+            android:layout_marginTop="10dp"
+            android:id="@+id/end"
+            android:layout_below="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/gray_2"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/end_time_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/start"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/end"
+            android:text="2021-10-03 00:00" />
+
+        <TextView
+            android:text="地点"
+            android:layout_marginTop="10dp"
+            android:id="@+id/location"
+            android:layout_below="@+id/end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/gray_2"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/notify_location_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/end"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/location"
+            android:text="线上" />
+
+        <TextView
+            android:text="简介"
+            android:layout_marginTop="10dp"
+            android:id="@+id/introduction"
+            android:layout_below="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/gray_2"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/notify_introduction_info"
+            android:layout_width="265dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/location"
+            android:layout_alignStart="@+id/introduction"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toRightOf="@+id/introduction"
+            android:text="金秋的九月\n图书馆迎来了2021届萌新们的参观热潮\n不少同学入馆的第一天\n已经尝试借阅图书\n让我们看看新学期里\n新HUSTer借了一些什么书吧\n不知道这些图书\n是否引起萌新们来馆借书的兴趣呢\n图书馆已经准备好\n为2021届新生们开启\n一起来看看有什么书吧"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
