@@ -13,6 +13,7 @@
 
     <EditText
         android:hint="姓名"
+        android:id="@+id/name"
         android:layout_width="311dp"
         android:layout_marginTop="50dp"
         android:layout_gravity="center_horizontal"
@@ -20,13 +21,7 @@
 
     <EditText
         android:hint="学号"
-        android:layout_width="311dp"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_height="wrap_content"/>
-
-    <EditText
-        android:hint="学院"
+        android:id="@+id/account"
         android:layout_width="311dp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
@@ -34,6 +29,7 @@
 
     <EditText
         android:hint="密码"
+        android:id="@+id/password"
         android:layout_width="311dp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"

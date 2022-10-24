@@ -55,6 +55,9 @@
         <entry key="..\:/Library/app/src/main/res/layout/notify.xml" value="0.1" />
         <entry key="..\:/Library/app/src/main/res/layout/welcome_fragment.xml" value="0.22" />
         <entry key="..\:/Library/app/src/main/res/menu/navigation_icon.xml" value="0.14666666666666667" />
+        <entry key="..\:/LibrarySystem/Library/app/src/main/res/layout/activity_login_new.xml" value="0.15" />
+        <entry key="..\:/LibrarySystem/Library/app/src/main/res/layout/activity_register_new.xml" value="0.17916666666666667" />
+        <entry key="..\:/LibrarySystem/Library/app/src/main/res/layout/fragment_my.xml" value="0.15" />
       </map>
     </option>
   </component>
