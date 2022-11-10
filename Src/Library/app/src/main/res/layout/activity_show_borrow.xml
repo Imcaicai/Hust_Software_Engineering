@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.ShowBorrowActivity">
+
+
+    <ImageView
+        android:id="@+id/isnull"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/result_null"/>
+
+    <RelativeLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="76dp">
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <ImageView
+                android:id="@+id/back_btn"
+                android:layout_marginLeft="25dp"
+                android:layout_centerVertical="true"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/icon_back"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的借阅"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/borrow_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:divider="#00000000"
+        android:dividerHeight="10dp"
+        android:scrollbars="none" />
+
+</RelativeLayout>

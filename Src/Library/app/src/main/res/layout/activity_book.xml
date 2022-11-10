@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/bar"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="76dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:id="@+id/icon_back"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/icon_back"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"/>
+
+            <TextView
+                android:id="@+id/book_name"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:text="平凡的世界"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <View
+        android:background="@color/gray_3"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <ImageView
+        android:src="@drawable/book_1"
+        android:id="@+id/book_cover"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="145dp"
+        android:layout_height="195dp"/>
+
+    <TextView
+        android:text="（英国) 威廉·萨默塞特·毛姆著; 冯涛译"
+        android:id="@+id/author"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/gray_5"
+        android:textSize="14dp" />
+
+    <TextView
+        android:text="译林出版社, 2021"
+        android:id="@+id/publish"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/gray_5"
+        android:textSize="14dp" />
+
+    <RelativeLayout
+        android:background="@drawable/background_book_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/blue_spot_1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/icon_blue_spot" />
+
+        <TextView
+            android:id="@+id/book_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@+id/blue_spot_1"
+            android:text="馆藏地点：流通书库(B区) （主馆B402、B403）"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+
+
+        <TextView
+            android:id="@+id/book_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/book_location"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="3dp"
+            android:text="馆藏状态：在架上 "
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/blue_spot_2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_below="@+id/book_state"
+            android:src="@drawable/icon_blue_spot" />
+
+        <TextView
+            android:id="@+id/book_ISBN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/book_state"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="15dp"
+            android:text="ISBN：978-7-5447-8590-7 精装 CNY49.00"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+
+
+        <TextView
+            android:id="@+id/book_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/book_ISBN"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="3dp"
+            android:text="主题：长篇小说 英国 现代"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/blue_spot_3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_below="@+id/book_theme"
+            android:src="@drawable/icon_blue_spot" />
+
+        <TextView
+            android:id="@+id/introduction_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/book_theme"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="15dp"
+            android:text="简介："
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/book_introduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/introduction_text"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="39dp"
+            android:text="      一个英国证券交易所的经纪人，本已有稳定的职业和社会地位、美满的家庭，但却迷恋上绘画，像“被魔鬼附了体”，突然弃家出走，到巴黎去追求绘画的理想。没有人能够理解他的行为。经过一番离奇的遭遇后，主人公最后离开文明世界，远遁到与世隔绝的塔希提岛上。他的灵魂终于得到了的安宁。有人认为这篇小说的原型是法国印象派画家高更，这更增加了它的传奇色奇彩 "
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:id="@+id/doit"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/collected"
+                    android:text="已收藏"
+                    android:textSize="15dp"
+                    android:background="@drawable/input_background"
+                    android:stateListAnimator="@null"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+                <Button
+                    android:id="@+id/collect"
+                    android:text="收藏本书"
+                    android:textSize="15dp"
+                    android:background="@drawable/input_background"
+                    android:stateListAnimator="@null"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/borrowed"
+                    android:text="已被借阅"
+                    android:textSize="15dp"
+                    android:stateListAnimator="@null"
+                    android:background="@drawable/background_borrowed"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"/>
+
+                <Button
+                    android:id="@+id/borrow"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/btn_background"
+                    android:stateListAnimator="@null"
+                    android:text="借阅本书"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

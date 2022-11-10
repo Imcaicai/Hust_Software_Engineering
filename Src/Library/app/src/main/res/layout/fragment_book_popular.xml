@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="6dp"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="22dp"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="134dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="热门推荐" />
+
+    </LinearLayout>
+
+    <View
+        android:background="@color/gray_3"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/popular_1"
+            android:src="@drawable/popular_1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_width="106dp"
+            android:layout_height="194dp"/>
+
+        <ImageView
+            android:id="@+id/popular_2"
+            android:layout_width="106dp"
+            android:layout_height="194dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/popular_1"
+            android:src="@drawable/popular_2" />
+
+        <ImageView
+            android:id="@+id/popular_3"
+            android:layout_width="106dp"
+            android:layout_height="194dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/popular_2"
+            android:src="@drawable/popular_3" />
+
+        <ImageView
+            android:id="@+id/popular_4"
+            android:layout_width="106dp"
+            android:layout_height="194dp"
+            android:layout_below="@+id/popular_1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/popular_4" />
+
+        <ImageView
+            android:id="@+id/popular_5"
+            android:layout_width="106dp"
+            android:layout_height="194dp"
+            android:layout_below="@+id/popular_1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/popular_4"
+            android:src="@drawable/popular_5" />
+
+        <ImageView
+            android:id="@+id/popular_6"
+            android:layout_width="106dp"
+            android:layout_height="194dp"
+            android:layout_below="@+id/popular_1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/popular_5"
+            android:src="@drawable/popular_6" />
+
+        <ImageView
+            android:id="@+id/popular_7"
+            android:layout_width="106dp"
+            android:layout_height="194dp"
+            android:layout_below="@+id/popular_4"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/popular_7" />
+
+        <ImageView
+            android:id="@+id/popular_8"
+            android:layout_width="106dp"
+            android:layout_height="194dp"
+            android:layout_below="@+id/popular_4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/popular_7"
+            android:src="@drawable/popular_8" />
+
+        <ImageView
+            android:id="@+id/popular_9"
+            android:layout_width="106dp"
+            android:layout_height="194dp"
+            android:layout_below="@+id/popular_4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/popular_8"
+            android:src="@drawable/popular_9" />
+
+    </RelativeLayout>
+
+</LinearLayout>

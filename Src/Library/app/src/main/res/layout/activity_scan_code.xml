@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    tools:context=".view.activity.ScanCodeActivity">
+    
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/btn_cancel"
+        android:layout_width="32dp"
+        android:layout_height="22dp"/>
+
+    <ImageView
+        android:layout_marginTop="250dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/borrow_book_btn"
+        android:src="@drawable/btn_borrow_book"
+        android:layout_width="167dp"
+        android:layout_height="48dp"/>
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="44dp"
+        android:id="@+id/return_book_btn"
+        android:src="@drawable/btn_return_book"
+        android:layout_width="167dp"
+        android:layout_height="48dp"/>
+
+</LinearLayout>
