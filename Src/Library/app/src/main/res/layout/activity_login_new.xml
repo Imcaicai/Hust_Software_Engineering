@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/sample_user_avatar"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="91dp"
+        android:layout_height="91dp"/>
+
+    <EditText
+        android:hint="学号"
+        android:id="@+id/account"
+        android:layout_width="311dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="密码"
+        android:id="@+id/password"
+        android:layout_width="311dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:src="@drawable/btn_forget_password"
+        android:layout_marginLeft="32dp"
+        android:id="@+id/forget_password_btn"
+        android:layout_width="69dp"
+        android:layout_height="20dp"/>
+
+    <CheckBox
+        android:id="@+id/save_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="记住我的登录状态" />
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/btn_login"
+        android:id="@+id/login_btn"
+        android:layout_width="311dp"
+        android:layout_height="44dp"/>
+
+    <ImageView
+        android:id="@+id/register_btn"
+        android:layout_width="138dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="231dp"
+        android:src="@drawable/btn_register" />
+
+</LinearLayout>

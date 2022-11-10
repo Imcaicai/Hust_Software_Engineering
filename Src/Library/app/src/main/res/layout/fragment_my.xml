@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/edit_info_btn"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/btn_edit_info"
+        android:text="编辑资料"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/user_avatar"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/edit_info_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/sample_user_avatar" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_avatar"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="徐锦慧"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/user_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="学号：U202011675"
+        android:textColor="@color/gray_2"
+        android:textSize="14dp" />
+
+    <RelativeLayout
+        android:id="@+id/rela_1"
+        android:background="@drawable/background_my_book"
+        android:layout_width="343dp"
+        android:layout_height="88dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/user_info"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/my_borrow_img"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/my_borrow_background"
+            android:src="@drawable/my_borrow" />
+
+        <TextView
+            android:id="@+id/my_borrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/my_borrow_img"
+            android:text="我的借阅" />
+
+
+
+        <ImageView
+            android:id="@+id/my_like_img"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/my_borrow"
+            android:src="@drawable/my_like"
+            android:background="@drawable/my_like_background" />
+
+        <TextView
+            android:id="@+id/my_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/my_like_img"
+            android:text="我的收藏" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/more_txt"
+        android:text="更多"
+        android:layout_below="@+id/rela_1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/gray_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/more_txt"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_more"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lost_and_found"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:text="失物招领"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="303dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray_3" />
+
+        <TextView
+            android:id="@+id/reader_guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:text="读者指南"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="303dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray_3" />
+
+        <TextView
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:text="意见反馈"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="303dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray_3" />
+
+        <TextView
+            android:id="@+id/settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:text="设置"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="welcome"
+        android:id="@+id/welcome"
+        android:icon="@drawable/bottom_welcome_s"/>
+    <item android:title="time"
+        android:id="@+id/time"
+        android:icon="@drawable/bottom_time_u"/>
+    <item android:title="notify"
+        android:id="@+id/notify"
+        android:icon="@drawable/bottom_notify_u"/>
+    <item android:title="my"
+        android:id="@+id/my"
+        android:icon="@drawable/bottom_my_u"/>
+</menu>

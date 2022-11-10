@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/elt"
+    android:gravity="center_vertical"
+    android:padding="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/etDrawable"
+        android:padding="8dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"/>
+
+    <EditText
+        android:id="@+id/et"
+        android:gravity="start|center_vertical"
+        android:layout_toStartOf="@+id/etBt"
+        android:layout_toEndOf="@id/etDrawable"
+        android:adjustViewBounds="true"
+        android:maxHeight="200dp"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/etBt"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingStart="8dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="6dp"
+        android:text="获取验证码"
+        android:textColor="#fff"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
