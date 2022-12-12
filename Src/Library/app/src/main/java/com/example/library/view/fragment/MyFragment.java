@@ -16,7 +16,6 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.library.R;
-import com.example.library.view.activity.BookActivity;
 import com.example.library.view.activity.ReaderGuideActivity;
 import com.example.library.view.activity.ShowBorrowActivity;
 

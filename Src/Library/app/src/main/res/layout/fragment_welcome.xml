@@ -31,18 +31,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <Spinner
+                <ImageView
                     android:id="@+id/search_spinner"
+                    android:src="@drawable/img_huster"
                     android:layout_width="80dp"
-                    android:layout_height="40dp"
-                    android:background="@drawable/background_spinner"
-                    android:dropDownSelector="@color/blue_light"
-                    android:entries="@array/search_by"
-                    android:spinnerMode="dropdown" />
+                    android:layout_height="30dp" />
 
                 <EditText
                     android:id="@+id/search_book"
                     android:layout_width="match_parent"
+                    android:height="40dp"
                     android:layout_marginRight="10dp"
                     android:hint="查找感兴趣的书"
                     android:textColorHint="@color/gray_1"
@@ -59,8 +57,8 @@
                 android:layout_marginTop="10dp"
                 android:src="@drawable/btn_scan_code"
                 android:layout_gravity="center_horizontal"
-                android:layout_width="330dp"
-                android:layout_height="130dp">
+                android:layout_width="340dp"
+                android:layout_height="135dp">
             </ImageView>
 
             <ImageView
@@ -88,8 +86,8 @@
 
                 <ImageView
                     android:id="@+id/popular_btn"
-                    android:layout_width="6dp"
-                    android:layout_height="12dp"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:layout_marginRight="20dp"
@@ -99,11 +97,12 @@
 
             <LinearLayout
                 android:orientation="horizontal"
+                android:gravity="center_horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
+
                 <LinearLayout
-                    android:layout_marginLeft="10dp"
                     android:orientation="vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
@@ -111,8 +110,8 @@
                     <ImageView
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/book_1"
-                        android:layout_width="96dp"
-                        android:layout_height="132dp"/>
+                        android:layout_width="110dp"
+                        android:layout_height="144dp"/>
 
                     <TextView
                         android:layout_gravity="center_horizontal"
@@ -130,8 +129,8 @@
                     <ImageView
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/book_2"
-                        android:layout_width="96dp"
-                        android:layout_height="132dp"/>
+                        android:layout_width="110dp"
+                        android:layout_height="145dp"/>
 
                     <TextView
                         android:layout_gravity="center_horizontal"
@@ -149,8 +148,8 @@
                     <ImageView
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/book_3"
-                        android:layout_width="96dp"
-                        android:layout_height="132dp"/>
+                        android:layout_width="110dp"
+                        android:layout_height="145dp"/>
 
                     <TextView
                         android:layout_gravity="center_horizontal"
@@ -160,24 +159,7 @@
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
 
-                    <ImageView
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/book_4"
-                        android:layout_width="96dp"
-                        android:layout_height="132dp"/>
-
-                    <TextView
-                        android:layout_gravity="center_horizontal"
-                        android:text="三体"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
 
             </LinearLayout>
 
@@ -198,8 +180,8 @@
 
                 <ImageView
                     android:id="@+id/new_book_btn"
-                    android:layout_width="6dp"
-                    android:layout_height="12dp"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:layout_marginRight="20dp"
@@ -210,10 +192,10 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
+                android:gravity="center_horizontal"
                 android:layout_height="wrap_content">
 
                 <LinearLayout
-                    android:layout_marginLeft="10dp"
                     android:orientation="vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
@@ -221,8 +203,8 @@
                     <ImageView
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/book_5"
-                        android:layout_width="96dp"
-                        android:layout_height="132dp"/>
+                        android:layout_width="110dp"
+                        android:layout_height="145dp"/>
 
                     <TextView
                         android:layout_gravity="center_horizontal"
@@ -240,8 +222,8 @@
                     <ImageView
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/book_7"
-                        android:layout_width="96dp"
-                        android:layout_height="132dp"/>
+                        android:layout_width="110dp"
+                        android:layout_height="145dp"/>
 
                     <TextView
                         android:layout_gravity="center_horizontal"
@@ -259,8 +241,8 @@
                     <ImageView
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/book_9"
-                        android:layout_width="96dp"
-                        android:layout_height="132dp"/>
+                        android:layout_width="110dp"
+                        android:layout_height="145dp"/>
 
                     <TextView
                         android:layout_gravity="center_horizontal"
@@ -270,24 +252,7 @@
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
 
-                    <ImageView
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/book_10"
-                        android:layout_width="96dp"
-                        android:layout_height="132dp"/>
-
-                    <TextView
-                        android:layout_gravity="center_horizontal"
-                        android:text="人类简史"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
 
             </LinearLayout>
 

@@ -183,64 +183,28 @@
 
         <LinearLayout
             android:id="@+id/doit"
-            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:layout_alignParentBottom="true">
-            <RelativeLayout
-                android:layout_weight="1"
-                android:layout_marginRight="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <Button
-                    android:id="@+id/collected"
-                    android:text="已收藏"
-                    android:textSize="15dp"
-                    android:background="@drawable/input_background"
-                    android:stateListAnimator="@null"
-                    android:layout_marginRight="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"/>
 
-                <Button
-                    android:id="@+id/collect"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_marginRight="5dp"
-                    android:background="@drawable/input_background"
-                    android:stateListAnimator="@null"
-                    android:text="收藏本书"
-                    android:textSize="15dp" />
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_weight="1"
-                android:layout_marginLeft="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <Button
-                    android:id="@+id/borrowed"
-                    android:text="已被借阅"
-                    android:textSize="15dp"
-                    android:stateListAnimator="@null"
-                    android:background="@drawable/background_borrowed"
-                    android:layout_marginLeft="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"/>
+            <Button
+                android:id="@+id/return_btn"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_background"
+                android:text="归还本书"
+                android:layout_below="@+id/book_introduction"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
 
-                <Button
-                    android:id="@+id/borrow"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_marginLeft="5dp"
-                    android:background="@drawable/btn_background"
-                    android:stateListAnimator="@null"
-                    android:text="借阅本书"
-                    android:textColor="@color/white"
-                    android:textSize="15dp" />
-            </RelativeLayout>
         </LinearLayout>
+
+
 
     </RelativeLayout>
 

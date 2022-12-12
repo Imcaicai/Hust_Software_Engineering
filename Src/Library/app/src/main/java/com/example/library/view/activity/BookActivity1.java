@@ -8,7 +8,6 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -33,7 +32,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
-public class BookActivity extends AppCompatActivity implements View.OnClickListener{
+public class BookActivity1 extends AppCompatActivity implements View.OnClickListener{
     private ImageView cover;
     private TextView name;
     private TextView author;
@@ -71,16 +70,6 @@ public class BookActivity extends AppCompatActivity implements View.OnClickListe
         collectedBtn.setVisibility(View.GONE);
         collectBtn.setVisibility(View.VISIBLE);
 
-        /*
-        collections = userTableHelper.FindCollectionBooks(dbHelper,uid);
-        if (collections.contains("/"+bid+"/")){
-            collectBtn.setVisibility(View.GONE);
-            collectedBtn.setVisibility(View.VISIBLE);
-        }else {
-            collectedBtn.setVisibility(View.GONE);
-            collectBtn.setVisibility(View.VISIBLE);
-        }
-        */
 
         bookArrayList = bookTableHelper.getBookDetails(dbHelper,bid);
         name.setText(bookArrayList.get(0).getName());
@@ -100,7 +89,6 @@ public class BookActivity extends AppCompatActivity implements View.OnClickListe
             borrowedBtn.setVisibility(View.VISIBLE);
             borrowBtn.setVisibility(View.GONE);
         }
-
 
     }
 
@@ -170,14 +158,14 @@ public class BookActivity extends AppCompatActivity implements View.OnClickListe
                 userTableHelper.CollectBook(dbHelper,uid,new_collection);
                 collectedBtn.setVisibility(View.GONE);
                 collectBtn.setVisibility(View.VISIBLE);
-                Toast.makeText(BookActivity.this,"取消收藏成功",Toast.LENGTH_SHORT).show();
+                Toast.makeText(BookActivity1.this,"取消收藏成功",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.collect:
                 String collection = "/"+bid+"/";
                 userTableHelper.CollectBook(dbHelper,uid,collections+collection);
                 collectBtn.setVisibility(View.GONE);
                 collectedBtn.setVisibility(View.VISIBLE);
-                Toast.makeText(BookActivity.this,"收藏成功",Toast.LENGTH_SHORT).show();
+                Toast.makeText(BookActivity1.this,"收藏成功",Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.icon_back:

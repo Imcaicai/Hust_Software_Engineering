@@ -14,8 +14,8 @@
 
         <ImageView
             android:id="@+id/icon_back"
-            android:layout_width="6dp"
-            android:layout_height="12dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="22dp"
             android:src="@drawable/icon_back" />
@@ -37,26 +37,16 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"/>
 
-    <TextView
-        android:layout_marginLeft="16dp"
+    <ImageView
         android:layout_marginTop="10dp"
-        android:id="@+id/my_gold"
-        android:text="我的金币：30"
-        android:textSize="20dp"
-        android:textColor="@color/black"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_gold">
 
-    <TextView
-        android:text="每打卡2小时可获得10金币，快来用金币解锁喜欢的城市吧！"
-        android:textSize="11dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="16dp"
-        android:textColor="@color/gray_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-
+    </ImageView>
 
 
 </LinearLayout>

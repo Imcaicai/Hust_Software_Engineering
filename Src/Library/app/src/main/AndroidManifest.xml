@@ -18,6 +18,9 @@
         android:theme="@style/Theme.Library"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".view.activity.BookActivity2"
+            android:exported="false" />
+        <activity
             android:name=".view.activity.ShowBorrowActivity"
             android:exported="false" />
         <activity
@@ -51,7 +54,7 @@
             android:name=".view.activity.NotifyActivity"
             android:exported="true" />
         <activity
-            android:name=".view.activity.BookActivity"
+            android:name=".view.activity.BookActivity1"
             android:exported="true" />
         <activity
             android:name=".view.activity.LostActivity"

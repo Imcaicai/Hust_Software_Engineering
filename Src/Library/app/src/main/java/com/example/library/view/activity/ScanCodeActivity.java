@@ -12,7 +12,6 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class ScanCodeActivity extends AppCompatActivity {
@@ -20,6 +19,8 @@ public class ScanCodeActivity extends AppCompatActivity {
     private ImageView borrowBook;
     private ImageView returnBook;
     private ImageView backIcon;
+    // 记录扫描的是借书还是还书，如果是借书则为false，还书则为true
+    private boolean flag;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,7 @@ public class ScanCodeActivity extends AppCompatActivity {
         borrowBook.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
+                flag=false;
                 IntentIntegrator intentIntegrator = new IntentIntegrator(ScanCodeActivity.this);
                 // 开始扫描
                 intentIntegrator.initiateScan();
@@ -40,6 +42,7 @@ public class ScanCodeActivity extends AppCompatActivity {
         returnBook.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
+                flag=true;
                 IntentIntegrator intentIntegrator = new IntentIntegrator(ScanCodeActivity.this);
                 intentIntegrator.setPrompt("这里是二维码扫描界面");
                 // 开始扫描
@@ -74,11 +77,19 @@ public class ScanCodeActivity extends AppCompatActivity {
             if (result.getContents() == null) {
                 Toast.makeText(this, "取消扫描", Toast.LENGTH_LONG).show();
             } else {
-                Toast.makeText(this, "扫描内容:" + result.getContents(), Toast.LENGTH_LONG).show();
-                String bid=result.getContents();
-                Intent intent = new Intent(ScanCodeActivity.this,BookActivity.class);
-                intent.putExtra("bid",bid);
-                startActivity(intent);
+                if(flag){
+                    Toast.makeText(this, "扫描内容:" + result.getContents(), Toast.LENGTH_LONG).show();
+                    String bid=result.getContents();
+                    Intent intent = new Intent(ScanCodeActivity.this, BookActivity2.class);
+                    intent.putExtra("bid",bid);
+                    startActivity(intent);
+                }else{
+                    Toast.makeText(this, "扫描内容:" + result.getContents(), Toast.LENGTH_LONG).show();
+                    String bid=result.getContents();
+                    Intent intent = new Intent(ScanCodeActivity.this, BookActivity1.class);
+                    intent.putExtra("bid",bid);
+                    startActivity(intent);
+                }
 
             }
         } else {

@@ -2,12 +2,9 @@ package com.example.library.view.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.res.AssetManager;
 import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -159,7 +156,7 @@ public class BookSearchActivity extends AppCompatActivity implements View.OnClic
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             String bid = bookArrayList.get(position).getId();
-            Intent intent = new Intent(BookSearchActivity.this,BookActivity.class);
+            Intent intent = new Intent(BookSearchActivity.this, BookActivity1.class);
             intent.putExtra("bid",bid);
             intent.putExtra("startActivityCode","show");
             startActivity(intent);

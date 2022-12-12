@@ -13,10 +13,11 @@
 
         <ImageView
             android:id="@+id/icon_back"
-            android:layout_width="6dp"
-            android:layout_height="12dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="22dp"
+            android:layout_marginLeft="25dp"
             android:src="@drawable/icon_back" />
 
         <TextView

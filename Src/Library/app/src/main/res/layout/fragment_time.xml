@@ -19,10 +19,12 @@
             android:src="@drawable/btn_achievement" />
 
         <RelativeLayout
+            android:id="@+id/gold"
             android:layout_width="60dp"
             android:layout_height="26dp"
             android:layout_marginLeft="235dp"
             android:layout_marginTop="50dp"
+            android:clickable="true"
             android:layout_toRightOf="@+id/achievement_btn"
             android:background="@drawable/btn_gold">
 
@@ -33,7 +35,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="30dp"
                 android:clickable="true"
-                android:text="0"
+                android:text="30"
                 android:textColor="@color/blue_dark"
                 android:textSize="12dp" />
 
@@ -48,28 +50,36 @@
             android:layout_marginTop="40dp"
             android:src="@drawable/city_name" />
 
-        <TextView
-            android:layout_marginLeft="81dp"
-            android:id="@+id/time_text_0"
-            android:layout_marginTop="15dp"
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
             android:layout_below="@+id/city_name"
-            android:text="您总共专注了"
-            android:textSize="16dp"
-            android:textColor="@color/black"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/sum_time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/city_name"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="15dp"
-            android:layout_toRightOf="@+id/time_text_0"
-            android:text="00:00"
-            android:textColor="@color/blue_dark"
-            android:textSize="16dp" />
+            <TextView
+                android:id="@+id/time_text_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/city_name"
+                android:layout_marginTop="15dp"
+                android:text="您总共专注了"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/sum_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/city_name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="00:00"
+                android:textColor="@color/blue_dark"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
     </RelativeLayout>
 
 

@@ -19,9 +19,7 @@ import android.widget.TextView;
 import com.example.library.R;
 import com.example.library.adapter.BookGridAdapter;
 import com.example.library.helper.BookTableHelper;
-import com.example.library.helper.BorrowTableHelper;
 import com.example.library.helper.DatabaseHelper;
-import com.example.library.helper.UserTableHelper;
 import com.example.library.sharedata.Book;
 
 import java.util.ArrayList;
@@ -98,7 +96,7 @@ public class BookSearchResultActivity extends AppCompatActivity implements View.
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             String bid = bookArrayList.get(position).getId();
-            Intent intent = new Intent(BookSearchResultActivity.this,BookActivity.class);
+            Intent intent = new Intent(BookSearchResultActivity.this, BookActivity1.class);
             intent.putExtra("bid",bid);
             intent.putExtra("startActivityCode","search");
             startActivity(intent);

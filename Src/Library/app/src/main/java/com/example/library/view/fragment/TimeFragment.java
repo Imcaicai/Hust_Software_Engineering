@@ -10,26 +10,22 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 
 import com.example.library.R;
-import com.example.library.view.activity.BookActivity;
 import com.example.library.view.activity.GoldActivity;
-import com.example.library.view.activity.MainActivity;
 
 import java.lang.ref.WeakReference;
-import java.util.Objects;
 
 public class TimeFragment extends Fragment {
 
     private View view;
-    private TextView gold;
+    private RelativeLayout gold;
     private ImageView timeBtn;
     private ImageView cityName;
     private ImageView cityImg;
@@ -43,7 +39,7 @@ public class TimeFragment extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
         view = inflater.inflate(R.layout.fragment_time, container, false);
-        gold = view.findViewById(R.id.gold_text);
+        gold = view.findViewById(R.id.gold);
         timeBtn = view.findViewById(R.id.time_btn);
         cityName = view.findViewById(R.id.city_name);
         cityImg = view.findViewById(R.id.city_img);
