@@ -17,10 +17,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.library.R;
-import com.example.library.adapter.BookGridAdapter;
-import com.example.library.helper.BookTableHelper;
-import com.example.library.helper.DatabaseHelper;
-import com.example.library.sharedata.Book;
+import com.example.library.model.adapter.BookGridAdapter;
+import com.example.library.controller.BookTableHelper;
+import com.example.library.controller.DatabaseHelper;
+import com.example.library.model.Book;
 
 import java.util.ArrayList;
 

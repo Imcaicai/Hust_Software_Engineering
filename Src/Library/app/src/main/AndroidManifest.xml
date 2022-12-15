@@ -39,7 +39,7 @@
             android:name=".view.activity.ScanCodeActivity"
             android:exported="false" />
         <activity
-            android:name=".view.activity.LoginNewActivity"
+            android:name=".view.activity.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,7 +48,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.activity.RegisterNewActivity"
+            android:name=".view.activity.RegisterActivity"
             android:exported="true" />
         <activity
             android:name=".view.activity.NotifyActivity"

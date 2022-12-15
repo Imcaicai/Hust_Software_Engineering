@@ -19,14 +19,14 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.library.R;
-import com.example.library.helper.BookTableHelper;
-import com.example.library.helper.BorrowTableHelper;
-import com.example.library.helper.DatabaseHelper;
-import com.example.library.helper.GetTime;
-import com.example.library.helper.UserTableHelper;
-import com.example.library.sharedata.Book;
-import com.example.library.sharedata.Borrow;
-import com.example.library.utils.TipsDialog;
+import com.example.library.controller.BookTableHelper;
+import com.example.library.controller.BorrowTableHelper;
+import com.example.library.controller.DatabaseHelper;
+import com.example.library.controller.GetTime;
+import com.example.library.controller.UserTableHelper;
+import com.example.library.model.Book;
+import com.example.library.model.Borrow;
+import com.example.library.controller.TipsDialog;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -14,8 +14,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.library.R;
-import com.example.library.adapter.LostAndFoundAdapter;
-import com.example.library.sharedata.LostAndFound;
+import com.example.library.model.adapter.LostAndFoundAdapter;
+import com.example.library.model.LostAndFound;
 
 import java.util.ArrayList;
 

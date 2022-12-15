@@ -2,7 +2,6 @@ package com.example.library.view.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -13,10 +12,10 @@ import android.widget.ImageView;
 import android.widget.ListView;
 
 import com.example.library.R;
-import com.example.library.adapter.BorrowListAdapter;
-import com.example.library.helper.BorrowTableHelper;
-import com.example.library.helper.DatabaseHelper;
-import com.example.library.sharedata.Borrow;
+import com.example.library.model.adapter.BorrowListAdapter;
+import com.example.library.controller.BorrowTableHelper;
+import com.example.library.controller.DatabaseHelper;
+import com.example.library.model.Borrow;
 
 import java.util.ArrayList;
 
