@@ -42,47 +42,47 @@
 
 #### 登录注册
 
-![](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求1.png)
+![](./images/需求1.png)
 
 
 
 #### 查看地图
 
-![需求2](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求2.png)
+![需求2](./images/需求2.png)
 
 
 
 #### 借/还/收藏/推荐图书
 
-![需求3](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求3.png)
+![需求3](./images/需求3.png)
 
-![需求4](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求4.png)
+![需求4](./images/需求4.png)
 
-![需求5](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求5.png)
+![需求5](./images/需求5.png)
 
-![需求6](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求6.png)
+![需求6](./images/需求6.png)
 
 
 
 #### 专注打卡
 
-![需求7](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求7.png)
+![需求7](./images/需求7.png)
 
 
 
 #### 活动通知
 
-![需求8](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求8.png)
+![需求8](./images/需求8.png)
 
 
 
 #### 失物招领
 
-![需求9](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求9.png)
+![需求9](./images/需求9.png)
 
 
 
 #### 读者指南/意见反馈/设置
 
-![需求10](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求10.png)
+![需求10](./images/需求10.png)
 
