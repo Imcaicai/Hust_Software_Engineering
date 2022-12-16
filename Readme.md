@@ -40,44 +40,49 @@
 
 下载release文件中的apk安装包，按以下步骤即可体验各种功能，快来试一试吧！
 
-### 登录注册
+#### 登录注册
 
-![需求1](https://foruda.gitee.com/images/1670947404645661672/fd21a26c_10806612.png "需求1.png")
-
-### 查看地图
-
-![需求2](https://foruda.gitee.com/images/1670947465023589810/a511a2ef_10806612.png "需求2.png")
-
-### 借/还/收藏/推荐图书
-
-![需求3](https://foruda.gitee.com/images/1670947482385454092/0d29cf88_10806612.png "需求3.png")
+![](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求1.png)
 
 
 
-![需求4](https://foruda.gitee.com/images/1670947496667555393/2fbf8195_10806612.png "需求4.png")
+#### 查看地图
+
+![需求2](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求2.png)
 
 
 
-![需求5](https://foruda.gitee.com/images/1670947512735950421/5f78671d_10806612.png "需求5.png")
+#### 借/还/收藏/推荐图书
+
+![需求3](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求3.png)
+
+![需求4](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求4.png)
+
+![需求5](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求5.png)
+
+![需求6](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求6.png)
 
 
 
-![需求6](https://foruda.gitee.com/images/1670947526999658058/850e5e9b_10806612.png "需求6.png")
+#### 专注打卡
 
-### 专注打卡
+![需求7](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求7.png)
 
-![需求7](https://foruda.gitee.com/images/1670947543577113133/6e290736_10806612.png "需求7.png")
 
-### 活动通知
 
-![需求8](https://foruda.gitee.com/images/1670947558903152411/8d79d1f1_10806612.png "需求8.png")
+#### 活动通知
 
-### 失物招领
+![需求8](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求8.png)
 
-![需求9](https://foruda.gitee.com/images/1670947573016832729/ecab1df3_10806612.png "需求9.png")
 
-### 读者指南/意见反馈/设置
 
-![需求10](https://foruda.gitee.com/images/1670947589984784646/1106b613_10806612.png "需求10.png")
+#### 失物招领
 
+![需求9](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求9.png)
+
+
+
+#### 读者指南/意见反馈/设置
+
+![需求10](../CS2011_U202011675_徐锦慧/Docs/Docs/images/需求10.png)
 
